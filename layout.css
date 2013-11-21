@@ -1,0 +1,150 @@
+/**
+ * Tableless Layout for default template
+ *
+ * @author Andreas Gohr <andi@splitbrain.org>
+ * @author moraes <moraes@tipos.com.br>
+ */
+
+/* -------------- top row --------------- */
+div.dokuwiki .stylehead {
+  background-color: __header_bg_color__;
+}
+
+div.dokuwiki .header_row {
+  background:url(images/header_shading.png) repeat-x top;
+  height: 93px;
+}
+
+div.dokuwiki .header {
+  padding: 3px 0 0 2px;
+  width: __page_width__;
+  margin: 0 auto;
+}
+
+div.dokuwiki .pagename {
+  float: left;
+  font-size: 200%;
+  font-weight: bolder;
+  color: __background_alt__;
+  text-align: left;
+  vertical-align: middle;
+}
+
+div.dokuwiki .pagename a {
+  color: __extern__ !important;
+  text-decoration: none !important;
+}
+
+div.dokuwiki .logo {
+  float: right;
+  font-size: 220%;
+  font-weight: bolder;
+  text-align: right;
+  vertical-align: middle;
+  background: __header_logo__ no-repeat bottom right;
+  height: 90px;
+  margin-bottom: -5px;
+}
+
+div.dokuwiki .logo a {
+  color: #eee !important;
+  text-decoration: none !important;  
+  letter-spacing: 2pt;  
+}
+
+div.dokuwiki .logo h1 {
+  font-size: 25px;
+  color: white;
+  margin: 5px 125px 0 0;
+  font-variant: small-caps;
+  -moz-text-shadow: 0 1px 3px black;
+  -webkit-text-shadow: 0 1px 3px black;
+  text-shadow: 0 1px 3px black;
+  border-bottom: none;
+}
+
+div.dokuwiki .logo p {
+  font-size: 13px;
+  color: #eee;
+  margin: 0 125px 0 0;
+  font-variant: small-caps;
+  -moz-text-shadow: 0 1px 3px black;
+  -webkit-text-shadow: 0 1px 3px black;
+  text-shadow: 0 1px 3px black;
+}
+
+div.dokuwiki div.breadcrumbs_bar {
+  background: url(images/breadcrumb_bg.png) center top repeat-x;
+  background-color: __background_alt__;  
+  width: 100%;  
+  height: 35px;
+  line-height: 35px;
+  border-top: 1px solid #efefef ;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+/* ---------------  top and bottom bar ---------------- */
+
+div.dokuwiki .bar {  
+  padding: 0.1em 0.15em;
+  clear: both;
+}
+
+div.dokuwiki .bar-left {
+  float: left;
+}
+
+div.dokuwiki .bar-right {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki #bar__bottom {
+  margin: 0 auto auto auto;  
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: __page_width__;
+}
+
+div.dokuwiki #bar__bottom .bar-left {
+  margin-left: -12px;
+}
+
+div.dokuwiki #bar__bottom .bar-right {
+  margin-right: -12px;
+}
+
+div.dokuwiki .stylefoot {
+  width: 100%;
+  height: 100%;
+  background-color: #232323;
+  background: url(images/footer_bg.png) center top repeat-x;
+}
+
+div.dokuwiki .credits {
+  background: url(images/credits_bg.png) center top no-repeat;
+  color: "#666";
+  margin: 20px auto;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 80%;
+  font-style: italic;
+}
+
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki div.meta {
+  clear: both;
+  margin-top: 1em;
+  padding: 1em 0;  
+  color: __text_alt__;
+  font-size: 70%;
+}
+
+div.dokuwiki div.meta div.user {
+  float: left;
+}
+
+div.dokuwiki div.meta div.doc {
+  text-align: right;
+}
