@@ -44,7 +44,6 @@ if (!defined('DOKU_INC')) die();
         <a href="<?php echo(wl()) ?>">
           <div class="logo">
             <h1><?php echo $conf['title'] ?></h1>
-            <p>The Skylark Framework Community</p>
           </div>
         </a>
         <div id="navigation">

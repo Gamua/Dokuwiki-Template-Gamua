@@ -37,10 +37,6 @@ div.dokuwiki .pagename a {
 
 div.dokuwiki .logo {
   float: right;
-  font-size: 220%;
-  font-weight: bolder;
-  text-align: right;
-  vertical-align: middle;
   background: __header_logo__ no-repeat bottom right;
   height: 90px;
   margin-bottom: -5px;
@@ -53,24 +49,14 @@ div.dokuwiki .logo a {
 }
 
 div.dokuwiki .logo h1 {
-  font-size: 25px;
+  font-size: 30px;
   color: white;
-  margin: 5px 125px 0 0;
+  margin: 17px 135px 0 0;
   font-variant: small-caps;
   -moz-text-shadow: 0 1px 3px black;
   -webkit-text-shadow: 0 1px 3px black;
   text-shadow: 0 1px 3px black;
   border-bottom: none;
-}
-
-div.dokuwiki .logo p {
-  font-size: 13px;
-  color: #eee;
-  margin: 0 125px 0 0;
-  font-variant: small-caps;
-  -moz-text-shadow: 0 1px 3px black;
-  -webkit-text-shadow: 0 1px 3px black;
-  text-shadow: 0 1px 3px black;
 }
 
 div.dokuwiki div.breadcrumbs_bar {
