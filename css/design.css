@@ -40,8 +40,13 @@ div.dokuwiki div.page {
   padding-bottom: 1em;
 }
 
-div.dokuwiki div.page p {
+div.dokuwiki div.page {
   line-height: 150%;
+}
+
+.noteclassic, .noteimportant, .notewarning, .notetip {
+  line-height: 140%;
+  text-align: left;
 }
 
 div.dokuwiki table {
@@ -425,8 +430,8 @@ div.dokuwiki .credits a {
 
 div.dokuwiki div.preview {
   background-color: __background_neu__;
-  margin: 0 0 0 2em;
-  padding: 4px;
+  margin:  0 -5px;
+  padding: 0  5px;
   border: 1px dashed __text__;
 }
 
