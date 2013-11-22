@@ -40,12 +40,12 @@ div.dokuwiki div.page {
   padding-bottom: 1em;
 }
 
-div.dokuwiki div.page {
+div.dokuwiki div.page p {
   line-height: 150%;
 }
 
 .noteclassic, .noteimportant, .notewarning, .notetip {
-  line-height: 140%;
+  line-height: 130%;
   text-align: left;
 }
 
