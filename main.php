@@ -22,6 +22,7 @@ if (!defined('DOKU_INC')) die();
  lang="<?php echo $conf['lang']?>" dir="<?php echo $lang['direction']?>">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=790" />
   <title>
     <?php tpl_pagetitle()?> - <?php echo strip_tags($conf['title'])?>
   </title>
