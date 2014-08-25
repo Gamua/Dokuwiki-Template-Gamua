@@ -29,13 +29,13 @@ div.dokuwiki {
 }
 
 div.dokuwiki div.page_bar {
-  background-color: __background__;  
+  background-color: __background__;
 }
 
 div.dokuwiki div.page {
   /* text-align: justify; */
   width: __page_width__;
-  margin: 0 auto;  
+  margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -96,9 +96,9 @@ div.dokuwiki form.search {
   height: 22px;
 }
 
-div.dokuwiki form.search input.button {  
+div.dokuwiki form.search input.button {
   color: transparent;
-  padding: 0 0 0 22px !important; /* Fix for Internet Explorer */ 
+  padding: 0 0 0 22px !important; /* Fix for Internet Explorer */
   background: transparent url(images/search_icon.png) no-repeat center;
   border: none;
   overflow: hidden;
@@ -161,7 +161,7 @@ div.dokuwiki textarea.edit {
   /* should just be "width: 100%", but IE8 doesn't like it, see FS#1910 + FS#1667 */
   width: __page_width__;
   min-width: 100%;
-  max-width: 100%;  
+  max-width: 100%;
   background: #fbfbfb url(images/inputshadow.png) repeat-x top;
 }
 
@@ -259,7 +259,7 @@ div.dokuwiki button.button {
   cursor: pointer;
   margin: 1px;
   padding: 0.25em 0.6em;
-  border-radius: 5px;  
+  border-radius: 5px;
   -moz-border-radius: 5px;
 }
 
@@ -287,15 +287,15 @@ div.dokuwiki div.secedit input.button {
 div.dokuwiki div.secedit input.button:hover {
   background-color: __existing__;
   color: white;
-}  
-  
+}
+
 div.dokuwiki #bar__bottom input.button,
 div.dokuwiki #bar__bottom button.button {
   background-color: transparent;
   border: none;
-  border-radius: 16px;  
+  border-radius: 16px;
   -moz-border-radius: 16px;
-  color: #bbb;  
+  color: #bbb;
   padding: 6px 10px;
 }
 
@@ -346,7 +346,7 @@ div#navigation ul li a {
   text-shadow: 2px 2px 0 black;
 }
 
-div#navigation ul li a:hover { 	 
+div#navigation ul li a:hover {
   background-color: black; /* for ie7 */
   background-color: rgba(0,0,0,0.4);
   color: white;
@@ -578,7 +578,7 @@ div.dokuwiki pre {
   color: __text__;
   overflow: auto;
   border-radius: 5px;
-  -moz-border-radius: 5px;  
+  -moz-border-radius: 5px;
   -moz-tab-size: 4;
   -o-tab-size:   4;
   tab-size:      4;
@@ -903,7 +903,7 @@ div.dokuwiki div.ajax_qsearch {
 
 /* --------- Toolbar -------------------- */
 
-button.toolbutton {  
+button.toolbutton {
   padding: 2px 1px;
   margin: 0 1px 0 0;
   cursor: pointer;
@@ -956,6 +956,21 @@ div.dokuwiki div.imagemeta img.thumb {
 
 /* ------- gist inline code ----------- */
 
-.gist .gist-file {
+div.dokuwiki .gist {
   font-size: 0.8em;
+}
+
+div.dokuwiki .gist table {
+  border: none;
+  margin-bottom: 0px;
+}
+
+div.dokuwiki .gist .line-numbers {
+  font-size: 1.15em;
+}
+
+/* ----------- extension header -------------- */
+
+div.dataplugin_entry dl dd {
+  margin-bottom: 0.5em;
 }
