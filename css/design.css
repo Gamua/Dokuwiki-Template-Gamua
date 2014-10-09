@@ -956,17 +956,13 @@ div.dokuwiki div.imagemeta img.thumb {
 
 /* ------- gist inline code ----------- */
 
-div.dokuwiki .gist {
-  font-size: 0.8em;
-}
-
 div.dokuwiki .gist table {
   border: none;
   margin-bottom: 0px;
 }
 
-div.dokuwiki .gist .line-numbers {
-  font-size: 1.15em;
+div.dokuwiki .gist pre {
+  font-size: 100%;
 }
 
 /* ----------- extension header -------------- */
