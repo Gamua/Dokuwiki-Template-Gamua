@@ -96,6 +96,7 @@ div.dokuwiki form.search {
   height: 22px;
 }
 
+div.dokuwiki form.search button,
 div.dokuwiki form.search input.button {
   color: transparent;
   padding: 0 0 0 22px !important; /* Fix for Internet Explorer */
@@ -199,7 +200,8 @@ div.dokuwiki textarea.edit[readonly],
 div.dokuwiki input.edit[disabled],
 div.dokuwiki input.edit[readonly],
 div.dokuwiki input.button[disabled],
-div.dokuwiki select.edit[disabled] {
+div.dokuwiki select.edit[disabled],
+div.dokuwiki button[disabled] {
   background-color: __background_neu__ !important;
   color: #999 !important;
 }
@@ -248,6 +250,7 @@ div.dokuwiki form#dw__editform div.license {
 /* --------- buttons ------------------- */
 
 button.toolbutton,
+div.dokuwiki button,
 div.dokuwiki input.button,
 div.dokuwiki button.button {
   border: 1px solid __border__;
@@ -264,19 +267,14 @@ div.dokuwiki button.button {
 }
 
 button.toolbutton:hover,
+div.dokuwiki button:hover,
 div.dokuwiki input.button:hover,
 div.dokuwiki button.button:hover {
   background-color: __existing__;
   color: white;
 }
 
-/*
-* html div.dokuwiki input.button,
-* html div.dokuwiki button.button {
-  height: 1.8em;
-}
-*/
-
+div.dokuwiki div.secedit button,
 div.dokuwiki div.secedit input.button {
   margin: 0;
   font-size: 10px;
@@ -284,11 +282,13 @@ div.dokuwiki div.secedit input.button {
   display: inline;
 }
 
+div.dokuwiki div.secedit button:hover,
 div.dokuwiki div.secedit input.button:hover {
   background-color: __existing__;
   color: white;
 }
 
+div.dokuwiki #bar__bottom button,
 div.dokuwiki #bar__bottom input.button,
 div.dokuwiki #bar__bottom button.button {
   background-color: transparent;
@@ -299,6 +299,7 @@ div.dokuwiki #bar__bottom button.button {
   padding: 6px 10px;
 }
 
+div.dokuwiki #bar__bottom button:hover,
 div.dokuwiki #bar__bottom input.button:hover,
 div.dokuwiki #bar__bottom button.button:hover {
   background-color: black;
@@ -903,10 +904,10 @@ div.dokuwiki div.ajax_qsearch {
 
 /* --------- Toolbar -------------------- */
 
-button.toolbutton {
-  padding: 2px 1px;
-  margin: 0 1px 0 0;
-  cursor: pointer;
+div.editBox button.toolbutton {
+  width: 25px;
+  height: 25px;
+  padding: 1px 1px;
 }
 
 div.picker {
