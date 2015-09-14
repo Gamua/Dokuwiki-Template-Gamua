@@ -280,6 +280,7 @@ div.dokuwiki div.secedit input.button {
   font-size: 10px;
   float: right;
   display: inline;
+  padding: 4px;
 }
 
 div.dokuwiki div.secedit button:hover,
@@ -303,6 +304,12 @@ div.dokuwiki #bar__bottom button:hover,
 div.dokuwiki #bar__bottom input.button:hover,
 div.dokuwiki #bar__bottom button.button:hover {
   background-color: black;
+}
+
+div.dokuwiki div.secedit.editbutton_plugin_data form.button.btn_secedit div.no button {
+  margin-left: 25px;
+  margin-top: 3px;
+  float: left;
 }
 
 /* ----------- page navigator ------------- */
@@ -970,4 +977,8 @@ div.dokuwiki .gist pre {
 
 div.dataplugin_entry dl dd {
   margin-bottom: 0.5em;
+}
+
+div.inline.dataplugin_entry dl {
+  width: 91%;
 }
