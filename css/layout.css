@@ -40,6 +40,7 @@ div.dokuwiki .logo {
   background: __header_logo__ no-repeat bottom right;
   height: 90px;
   margin-bottom: -5px;
+  margin-right: 1px;
 }
 
 div.dokuwiki .logo a {
@@ -49,10 +50,9 @@ div.dokuwiki .logo a {
 }
 
 div.dokuwiki .logo h1 {
-  font-size: 30px;
+  font-size: 1.8em;
   color: white;
-  margin: 17px 135px 0 0;
-  font-variant: small-caps;
+  margin: 34px 125px 0 0;
   -moz-text-shadow: 0 1px 3px black;
   -webkit-text-shadow: 0 1px 3px black;
   text-shadow: 0 1px 3px black;
