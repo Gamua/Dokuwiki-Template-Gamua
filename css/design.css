@@ -6,12 +6,50 @@
  * @author Daniel Sperl <redge@incognitek.com>
  */
 
+/* ---- fonts ---- */
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/ubuntu-l.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ubuntu-r.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/ubuntu-m.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/ubuntu-b.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ubuntu-c.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ubuntumono-r.ttf') format('truetype');
+}
+
 /* -------------- general elements --------------- */
 
 * { padding: 0; margin: 0; }
 
 body {
-  /* font: 80% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif; */
   font: 90% "Ubuntu", "Trebuchet MS", Helvetica, Arial, Sans-Serif;
   color: __text__;
   background-color: #232323;

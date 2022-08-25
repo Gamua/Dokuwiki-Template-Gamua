@@ -31,9 +31,7 @@ if (!defined('DOKU_INC')) die();
   <?php echo tpl_favicon(array('favicon', 'mobile')) ?>
 
   <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
-  
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400|Ubuntu:400,500,700|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-</head>
+  </head>
 
 <body>
 <?php /*old includehook*/ @include(dirname(__FILE__).'/topheader.html')?>
